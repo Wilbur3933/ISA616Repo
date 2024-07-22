@@ -2,15 +2,15 @@
 title: "Summarize mtcars data"
 author: "Bill Myers"
 date: "`r Sys.Date()`"
-format
-html:
-    toc: true
-    toc-location: left
-    toc-expand: true
-    code-tools: true
-    code-fold: true
-    code-overflow: scroll
-    self-contained: true
+output: html_document
+   code_folding: show
+      df_print: paged
+      number_section: yes
+      theme: cerulean
+      toc: yes
+      toc_float: yes
+  word_document:
+      toc: no
 ---
 
 
