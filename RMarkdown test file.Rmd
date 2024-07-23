@@ -24,13 +24,7 @@ knitr::opts_chunk$set(fig.width=8, fig.height=6)
 data(mtcars)
 head(mtcars)
 summary(mtcars)
-hist(mtcars$mpg)
-plot(mtcars$mpg ~ mtcars$cyl)
-plot(mtcars$cyl ~ mtcars$mpg)
-hist(mtcars$cyl)
-hist(mtcars$disp)
-plot(mtcars$disp ~ mtcars$cyl)
-hist(mtcars$hp)
+
 ```
 
 
