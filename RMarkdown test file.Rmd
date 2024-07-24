@@ -31,7 +31,6 @@ hist(mtcars$cyl)
 hist(mtcars$disp)
 plot(mtcars$disp ~ mtcars$cyl)
 hist(mtcars$hp)
-plot(mtcars$hp ~ mtcars$cyl)
 ```
 
 
