@@ -30,7 +30,7 @@ plot(mtcars$cyl ~ mtcars$mpg)
 hist(mtcars$cyl)
 hist(mtcars$disp)
 plot(mtcars$disp ~ mtcars$cyl)
-hist(mtcars$hp)
+
 ```
 
 
