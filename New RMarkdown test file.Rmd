@@ -18,12 +18,13 @@ html:
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.width=8, fig.height=6)
 ```
-### Summary Info
+### Summary Info for mtcars
 
 ```{r}
 data(mtcars)
 head(mtcars)
 summary(mtcars)
+#hist(mtcars$mpg)
 
 ```
 
